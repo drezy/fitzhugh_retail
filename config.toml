@@ -1,4 +1,4 @@
-baseURL       = "http://fitzhughretail.com/"
+baseURL       = "https://precious-kitsune-36b13e.netlify.app/"
 languageCode  = "en-us"
 title         = "Fitzhugh Retail | Retail and office space in the Hillcountry"
 theme         = "roxo-hugo"
