@@ -1,0 +1,11 @@
+enable : true
+heading : "Details"
+counter_item: 
+  - title: "Total SQFT per unit"
+    number: "1300"
+
+  - title: "Number of units"
+    number: "4"
+
+  - title: "Available"
+    number: "Fall '23"
