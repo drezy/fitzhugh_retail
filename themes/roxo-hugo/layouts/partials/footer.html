@@ -14,29 +14,31 @@
             <br>
             <!-- <a href="tel:{{ .phone }}">{{ .phone }}</a> -->
             <!-- <br> -->
-            <a href="mailto:{{ .email }}">{{ .email }}</a>
+            <a class="text-white" href="mailto:{{ .email }}">{{ .email }}</a>
           </p>
         </div>
       </div>
       {{ end }}
       
-      
-      
       <div class="col-lg-2 col-12">
-        <a href="#top" class="site-footer-widget-top">
-          <img src="{{ "images/to-top.svg" | absURL }}" alt="back-to-top">
-          <p>
-            I want to 
-            <br>
-            visit again
-          </p>
-        </a>
-      </div>
-      <div class="col-12">
+        <ul class="site-cta-buttons">
+          <li>
+            <a href="https://goo.gl/maps/7JJUpatHBH9ep5NN6" target="_blank" class="btn btn-primary">
+              <span class="btn-area">
+                <span data-text="Map Link">
+                  Map Link
+                </span>
+              </span>
+            </a>
+          </li>
+        </ul>
         <!-- <div class="site-footer-copyright"> -->
           <!-- <p>© Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p> -->
         <!-- </div> -->
       </div>
+      
+      
+      
     </div>
   </div>
 </footer>
